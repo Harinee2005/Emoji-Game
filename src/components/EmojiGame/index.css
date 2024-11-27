@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.whole-bg {
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+
+.background-color {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .background-color {
+    padding: 70px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+}
